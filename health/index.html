@@ -1,1 +1,1299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,500;0,9..144,600&display=swap" rel="stylesheet">
 
+    <title>Nightingale &mdash; After Almost 1,400 Nights in the Spare Room, an Ergonomic Contour Pillow Brought Me Back to My Husband&rsquo;s Bed in Eight Nights</title>
+    <meta name="description" content="Nasal strips, sprays, a custom mouthguard and a CPAP machine all failed. What finally softened my husband&rsquo;s snoring &mdash; and ended nearly four years of separate bedrooms &mdash; was a contoured, German-engineered memory-foam pillow. A reader&rsquo;s first-person account.">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "After Almost 1,400 Nights Apart, a Contour Pillow Brought Me Back to My Husband's Bed in Eight Nights",
+        "author": { "@type": "Person", "name": "Diane Mercer" },
+        "datePublished": "2026-06-15",
+        "publisher": { "@type": "Organization", "name": "Nightingale" }
+    }
+    </script>
+
+    <style>
+        :root {
+            --canvas: #eef0f8;
+            --surface: #ffffff;
+            --surface-tint: #f6f5fc;
+            --ink: #211f33;
+            --ink-2: #4a4860;
+            --ink-3: #8c8aa3;
+            --line: #e4e3f0;
+            --line-2: #efeef7;
+            --indigo: #4f46c9;
+            --indigo-deep: #3a32a3;
+            --indigo-wash: #edebfb;
+            --coral: #ef6147;
+            --coral-deep: #d34a31;
+            --gold: #f0a93a;
+            --plum: #7a4fb0;
+            --radius: 18px;
+            --radius-sm: 12px;
+            --font-display: "Sora", "Segoe UI", system-ui, sans-serif;
+            --font-body: "Mulish", "Helvetica Neue", Arial, sans-serif;
+            --font-accent: "Fraunces", Georgia, "Times New Roman", serif;
+            --shadow-sm: 0 1px 3px rgba(33, 31, 51, 0.06), 0 6px 18px rgba(33, 31, 51, 0.05);
+            --shadow-md: 0 8px 30px rgba(46, 40, 96, 0.12);
+        }
+
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--canvas);
+            color: var(--ink);
+            line-height: 1.7;
+            font-size: 18px;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+            overflow-x: hidden;
+        }
+        a { color: var(--indigo); text-decoration: none; }
+        a:hover { color: var(--indigo-deep); }
+        img { max-width: 100%; height: auto; display: block; }
+
+        /* ===== READING PROGRESS ===== */
+        .reading-bar {
+            position: fixed; top: 0; left: 0; height: 4px; width: 0%;
+            background: linear-gradient(90deg, var(--coral), var(--gold));
+            z-index: 1200; transition: width 0.08s linear;
+        }
+
+        /* ===== TOP NAV ===== */
+        .navbar {
+            position: sticky; top: 0; z-index: 1100;
+            background: rgba(255,255,255,0.92);
+            backdrop-filter: saturate(140%) blur(8px);
+            border-bottom: 1px solid var(--line);
+        }
+        .navbar-inner {
+            max-width: 1080px; margin: 0 auto;
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 13px 24px;
+        }
+        .brand { display: flex; align-items: center; gap: 9px; }
+        .brand .mark {
+            width: 30px; height: 30px; border-radius: 9px;
+            background: var(--indigo); display: flex; align-items: center; justify-content: center;
+            color: #fff; flex-shrink: 0;
+        }
+        .brand .name {
+            font-family: var(--font-display); font-weight: 800; font-size: 19px;
+            letter-spacing: -0.02em; color: var(--ink);
+        }
+        .brand .name b { color: var(--indigo); font-weight: 800; }
+        .nav-links { display: flex; gap: 26px; }
+        .nav-links a {
+            font-family: var(--font-display); font-size: 13px; font-weight: 600;
+            letter-spacing: 0.02em; color: var(--ink-2); text-transform: uppercase;
+        }
+        .nav-links a:hover { color: var(--indigo); }
+
+        /* ===== LAYOUT SHELL ===== */
+        .shell { max-width: 820px; margin: 28px auto 40px; padding: 0 20px; }
+
+        .card {
+            background: var(--surface);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-sm);
+            padding: 40px 48px 46px;
+        }
+
+        /* ===== HERO BLOCK ===== */
+        .eyebrow {
+            display: inline-flex; align-items: center; gap: 8px;
+            font-family: var(--font-display); font-size: 12px; font-weight: 700;
+            letter-spacing: 0.14em; text-transform: uppercase; color: var(--indigo);
+            background: var(--indigo-wash); padding: 7px 14px; border-radius: 999px;
+            margin-bottom: 22px;
+        }
+        h1.title {
+            font-family: var(--font-display);
+            font-size: 40px; font-weight: 800; line-height: 1.12;
+            letter-spacing: -0.025em; color: var(--ink); margin-bottom: 20px;
+        }
+        h1.title span { color: var(--indigo); }
+        .standfirst {
+            font-family: var(--font-accent); font-style: italic;
+            font-size: 21px; line-height: 1.5; color: var(--ink-2);
+            margin-bottom: 30px;
+        }
+        .writer {
+            display: flex; align-items: center; gap: 14px;
+            padding: 18px 0; border-top: 1px solid var(--line);
+            border-bottom: 1px solid var(--line);
+        }
+        .avatar {
+            width: 46px; height: 46px; border-radius: 50%; flex-shrink: 0;
+            display: flex; align-items: center; justify-content: center;
+            font-family: var(--font-display); font-weight: 700; font-size: 15px;
+            color: #fff; letter-spacing: 0.02em;
+        }
+        .writer .who { line-height: 1.35; }
+        .writer .who .nm { font-family: var(--font-display); font-weight: 700; font-size: 15px; color: var(--ink); }
+        .writer .who .mt { font-size: 13px; color: var(--ink-3); }
+        .writer .who .mt span + span::before { content: '\2022'; margin: 0 7px; color: var(--line); }
+
+        /* ===== FIGURES ===== */
+        figure.media { margin: 34px 0; }
+        figure.media img {
+            width: 100%; border-radius: var(--radius-sm);
+            background: var(--surface-tint); border: 1px solid var(--line);
+        }
+        figure.media.hero img { padding: 26px 30px; }
+        figure.media figcaption {
+            font-size: 13px; color: var(--ink-3); margin-top: 11px;
+            line-height: 1.5; padding-left: 14px; border-left: 3px solid var(--indigo-wash);
+        }
+
+        /* ===== PROSE ===== */
+        .prose { font-size: 18px; line-height: 1.78; color: var(--ink); }
+        .prose p { margin: 0 0 20px; }
+        .prose p strong { font-weight: 700; }
+        .prose p em { font-style: italic; color: var(--ink-2); }
+        .prose .first p:first-child::first-letter {
+            font-family: var(--font-display); font-weight: 800; font-size: 64px;
+            float: left; line-height: 0.82; margin: 8px 12px 0 0; color: var(--indigo);
+        }
+
+        h2.sec {
+            font-family: var(--font-display); font-size: 27px; font-weight: 700;
+            line-height: 1.25; letter-spacing: -0.02em; color: var(--ink);
+            margin: 50px 0 22px; padding-top: 8px;
+        }
+        h2.sec::before {
+            content: ''; display: block; width: 44px; height: 4px; border-radius: 2px;
+            background: var(--coral); margin-bottom: 18px;
+        }
+
+        /* ===== QUOTE ===== */
+        .quote {
+            margin: 34px 0; padding: 4px 0 4px 26px;
+            border-left: 4px solid var(--indigo);
+        }
+        .quote p {
+            font-family: var(--font-accent); font-style: italic; font-weight: 500;
+            font-size: 25px; line-height: 1.4; color: var(--indigo-deep);
+        }
+
+        .divider { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 44px 0; }
+        .divider span { width: 6px; height: 6px; border-radius: 50%; background: var(--line); }
+        .divider span:nth-child(2) { background: var(--coral); }
+
+        /* ===== "WHAT WE TRIED" LIST ===== */
+        .tried { list-style: none; margin: 26px 0; display: grid; gap: 14px; }
+        .tried li {
+            display: flex; gap: 16px; align-items: flex-start;
+            background: var(--surface-tint); border: 1px solid var(--line-2);
+            border-radius: var(--radius-sm); padding: 18px 20px;
+        }
+        .tried .ic {
+            flex-shrink: 0; width: 40px; height: 40px; border-radius: 11px;
+            background: #fff; border: 1px solid var(--line);
+            display: flex; align-items: center; justify-content: center; color: var(--indigo);
+        }
+        .tried .tx { font-size: 16px; line-height: 1.6; color: var(--ink-2); }
+        .tried .tx b { color: var(--ink); font-family: var(--font-display); font-weight: 600; font-size: 16px; }
+        .tried .tx em { font-style: italic; }
+
+        /* ===== SPEC GRID ===== */
+        .specs {
+            display: grid; grid-template-columns: 1fr 1fr; gap: 1px;
+            background: var(--line); border: 1px solid var(--line);
+            border-radius: var(--radius-sm); overflow: hidden; margin: 28px 0;
+        }
+        .specs .spec { background: var(--surface); padding: 20px 22px; }
+        .specs .spec .hd { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+        .specs .spec .hd .ic { color: var(--indigo); flex-shrink: 0; }
+        .specs .spec .hd .lb {
+            font-family: var(--font-display); font-size: 12px; font-weight: 700;
+            letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3);
+        }
+        .specs .spec .vl { font-size: 15px; line-height: 1.55; color: var(--ink); }
+        .specs .spec .vl strong { color: var(--indigo-deep); font-weight: 700; }
+
+        /* ===== CALLOUT ===== */
+        .callout {
+            display: flex; gap: 16px; align-items: flex-start;
+            background: var(--indigo-wash); border-radius: var(--radius-sm);
+            padding: 24px 26px; margin: 36px 0;
+        }
+        .callout .ic { flex-shrink: 0; color: var(--indigo); margin-top: 2px; }
+        .callout .lb {
+            font-family: var(--font-display); font-size: 12px; font-weight: 700;
+            letter-spacing: 0.1em; text-transform: uppercase; color: var(--indigo);
+            margin-bottom: 7px;
+        }
+        .callout p { font-size: 15px; line-height: 1.65; color: var(--ink-2); font-style: italic; }
+        .callout p strong { font-style: normal; color: var(--ink); font-weight: 700; }
+
+        /* ===== TIMELINE ===== */
+        .timeline { position: relative; margin: 30px 0; padding-left: 30px; }
+        .timeline::before {
+            content: ''; position: absolute; left: 7px; top: 6px; bottom: 6px;
+            width: 2px; background: var(--line);
+        }
+        .timeline .node { position: relative; padding: 0 0 26px 0; }
+        .timeline .node:last-child { padding-bottom: 0; }
+        .timeline .node::before {
+            content: ''; position: absolute; left: -30px; top: 4px;
+            width: 16px; height: 16px; border-radius: 50%;
+            background: #fff; border: 3px solid var(--indigo);
+        }
+        .timeline .node.peak::before { border-color: var(--coral); background: var(--coral); }
+        .timeline .node .lab {
+            font-family: var(--font-display); font-weight: 700; font-size: 14px;
+            letter-spacing: 0.06em; text-transform: uppercase; color: var(--indigo-deep);
+            margin-bottom: 6px;
+        }
+        .timeline .node p { font-size: 16px; line-height: 1.7; color: var(--ink-2); margin-bottom: 10px; }
+        .timeline .node p:last-child { margin-bottom: 0; }
+        .timeline .node em { font-style: italic; color: var(--ink); }
+
+        /* ===== FEATURE GRID ===== */
+        .features { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 28px 0; }
+        .feat {
+            background: var(--surface-tint); border: 1px solid var(--line-2);
+            border-radius: var(--radius-sm); padding: 22px 22px;
+        }
+        .feat .ic {
+            width: 42px; height: 42px; border-radius: 11px; background: var(--indigo-wash);
+            display: flex; align-items: center; justify-content: center; color: var(--indigo);
+            margin-bottom: 13px;
+        }
+        .feat h3 { font-family: var(--font-display); font-size: 17px; font-weight: 700; color: var(--ink); margin-bottom: 7px; line-height: 1.3; }
+        .feat p { font-size: 14.5px; line-height: 1.6; color: var(--ink-2); }
+
+        /* ===== COMPARISON TABLE ===== */
+        .compare { margin: 28px 0; overflow-x: auto; border-radius: var(--radius-sm); border: 1px solid var(--line); }
+        table.cmp { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 560px; }
+        table.cmp thead th {
+            font-family: var(--font-display); font-size: 12px; font-weight: 700;
+            letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-2);
+            background: var(--surface-tint); padding: 14px 14px; text-align: center;
+            border-bottom: 1px solid var(--line);
+        }
+        table.cmp thead th:first-child { text-align: left; }
+        table.cmp thead th.hl { color: var(--indigo); background: var(--indigo-wash); }
+        table.cmp tbody th {
+            font-family: var(--font-body); font-weight: 600; font-size: 14px; text-align: left;
+            color: var(--ink); padding: 13px 14px; border-bottom: 1px solid var(--line-2);
+        }
+        table.cmp tbody td {
+            text-align: center; padding: 13px 14px; color: var(--ink-2);
+            border-bottom: 1px solid var(--line-2);
+        }
+        table.cmp tbody td.hl { background: rgba(237,235,251,0.5); }
+        table.cmp .yes { color: #2f9461; font-weight: 700; }
+        table.cmp .no { color: var(--ink-3); }
+        .cmp-note { font-size: 12.5px; color: var(--ink-3); line-height: 1.55; margin-top: 14px; padding-left: 14px; border-left: 3px solid var(--line); }
+
+        /* ===== CTA CARD ===== */
+        .buy {
+            margin: 42px 0; border-radius: var(--radius);
+            background: linear-gradient(135deg, #2c2752 0%, #4f46c9 100%);
+            box-shadow: var(--shadow-md); overflow: hidden;
+            display: grid; grid-template-columns: 200px 1fr;
+        }
+        .buy .pic {
+            background: rgba(255,255,255,0.08); display: flex; align-items: center; justify-content: center;
+            padding: 22px; border-right: 1px solid rgba(255,255,255,0.12);
+        }
+        .buy .pic img { max-width: 100%; border-radius: 10px; background: #fff; padding: 10px; }
+        .buy .body { padding: 28px 30px; color: #fff; }
+        .buy .kick {
+            font-family: var(--font-display); font-size: 11px; font-weight: 700;
+            letter-spacing: 0.14em; text-transform: uppercase; color: #c8c2ff; margin-bottom: 9px;
+        }
+        .buy h3 { font-family: var(--font-display); font-size: 21px; font-weight: 700; line-height: 1.3; margin-bottom: 11px; }
+        .buy .bl { font-size: 14.5px; line-height: 1.6; color: rgba(255,255,255,0.85); margin-bottom: 18px; }
+        .btn {
+            display: inline-flex; align-items: center; gap: 9px;
+            font-family: var(--font-display); font-size: 14px; font-weight: 700;
+            letter-spacing: 0.03em; color: #fff !important;
+            background: var(--coral); padding: 15px 28px; border-radius: 999px;
+            box-shadow: 0 6px 16px rgba(239, 97, 71, 0.4); transition: all 0.18s; cursor: pointer;
+        }
+        .btn:hover { background: var(--coral-deep); color: #fff !important; transform: translateY(-2px); box-shadow: 0 9px 22px rgba(239, 97, 71, 0.5); }
+        .btn svg { transition: transform 0.18s; }
+        .btn:hover svg { transform: translateX(4px); }
+        .buy .note {
+            font-size: 12px; line-height: 1.55; color: rgba(255,255,255,0.7);
+            margin-top: 15px; padding-top: 14px; border-top: 1px dashed rgba(255,255,255,0.2);
+        }
+        .buy .note strong { color: #fff; font-weight: 700; }
+
+        /* ===== REVIEWS ===== */
+        .reviews { display: grid; gap: 16px; margin: 26px 0; }
+        .review {
+            background: var(--surface-tint); border: 1px solid var(--line-2);
+            border-radius: var(--radius-sm); padding: 22px 24px;
+        }
+        .stars { display: flex; align-items: center; gap: 3px; margin-bottom: 12px; }
+        .stars svg { color: var(--gold); }
+        .stars .vb {
+            font-family: var(--font-display); font-size: 11px; font-weight: 700;
+            letter-spacing: 0.06em; text-transform: uppercase; color: #2f9461; margin-left: 8px;
+        }
+        .review .rb { font-size: 16px; line-height: 1.65; color: var(--ink); font-style: italic; margin-bottom: 15px; }
+        .review .ra { display: flex; align-items: center; gap: 11px; }
+        .review .ra .avatar { width: 36px; height: 36px; font-size: 13px; }
+        .review .ra .nm { font-family: var(--font-display); font-size: 14px; font-weight: 600; color: var(--ink); }
+        .review .ra .loc { font-size: 13px; color: var(--ink-3); }
+
+        /* ===== HONESTY BOX ===== */
+        .honesty {
+            background: #fdf3ec; border: 1px solid #f6dcc9; border-radius: var(--radius-sm);
+            padding: 28px 30px; margin: 36px 0;
+        }
+        .honesty .lb {
+            font-family: var(--font-display); font-size: 12px; font-weight: 700;
+            letter-spacing: 0.1em; text-transform: uppercase; color: var(--coral-deep);
+            margin-bottom: 14px; display: flex; align-items: center; gap: 9px;
+        }
+        .honesty p { font-size: 16px; line-height: 1.7; color: var(--ink-2); margin-bottom: 15px; }
+        .honesty p:last-child { margin-bottom: 0; }
+        .honesty p strong { color: var(--ink); font-weight: 700; }
+        .honesty p em { font-style: italic; }
+
+        /* ===== SIGN OFF ===== */
+        .signoff {
+            font-family: var(--font-accent); font-style: italic; font-size: 18px;
+            text-align: right; color: var(--ink-2); margin: 40px 0 8px; line-height: 1.4;
+        }
+        .signoff span {
+            display: block; font-family: var(--font-display); font-style: normal;
+            font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+            color: var(--ink-3); margin-top: 6px;
+        }
+
+        /* ===== COMMENTS ===== */
+        .comments { margin-top: 50px; padding-top: 30px; border-top: 1px solid var(--line); }
+        .comments .ch {
+            font-family: var(--font-display); font-size: 21px; font-weight: 700; color: var(--ink);
+            display: flex; align-items: center; gap: 10px; margin-bottom: 4px;
+        }
+        .comments .ch .cnt {
+            font-size: 13px; font-weight: 600; color: var(--ink-3);
+            background: var(--surface-tint); padding: 3px 11px; border-radius: 999px;
+        }
+        .comments .csub { font-size: 13px; color: var(--ink-3); margin-bottom: 26px; }
+        .comment { display: flex; gap: 14px; padding: 20px 0; border-top: 1px solid var(--line-2); }
+        .comment:first-of-type { border-top: none; }
+        .comment .avatar { width: 42px; height: 42px; font-size: 14px; }
+        .comment .cbody { flex: 1; }
+        .comment .crow { display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px; flex-wrap: wrap; }
+        .comment .cn { font-family: var(--font-display); font-size: 14.5px; font-weight: 700; color: var(--ink); }
+        .comment .ct { font-size: 12px; color: var(--ink-3); }
+        .comment .cx { font-size: 15px; line-height: 1.65; color: var(--ink-2); }
+        .comment .clike {
+            display: inline-flex; align-items: center; gap: 6px; margin-top: 11px;
+            font-size: 12.5px; font-weight: 600; color: var(--ink-3);
+        }
+        .comment .clike svg { color: var(--coral); }
+        .comment.reply { margin-left: 30px; border-top: none; padding-top: 6px; }
+        .comment.reply .badge {
+            font-family: var(--font-display); font-size: 10px; font-weight: 700;
+            letter-spacing: 0.06em; text-transform: uppercase; color: #fff;
+            background: var(--indigo); padding: 2px 8px; border-radius: 999px;
+        }
+
+        /* ===== FOOTER ===== */
+        .foot {
+            max-width: 820px; margin: 0 auto; padding: 36px 20px 110px; color: var(--ink-3);
+        }
+        .foot .disc { font-size: 12.5px; line-height: 1.6; margin-bottom: 18px; }
+        .foot .disc strong { color: var(--ink-2); font-weight: 700; }
+        .foot .links { display: flex; gap: 22px; flex-wrap: wrap; margin-bottom: 14px; }
+        .foot .links a {
+            font-family: var(--font-display); font-size: 12px; font-weight: 600;
+            letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-2);
+        }
+        .foot .links a:hover { color: var(--indigo); }
+        .foot .cr { font-size: 12px; letter-spacing: 0.03em; }
+
+        /* ===== STICKY DOCK ===== */
+        .dock {
+            position: fixed; bottom: 0; left: 0; right: 0; z-index: 1000;
+            background: rgba(255,255,255,0.96); backdrop-filter: blur(8px);
+            border-top: 1px solid var(--line); box-shadow: 0 -6px 24px rgba(46,40,96,0.1);
+            padding: 11px 20px; display: none;
+        }
+        .dock.on { display: flex; align-items: center; justify-content: center; gap: 16px; flex-wrap: wrap; }
+        .dock .dx { font-size: 14px; color: var(--ink-2); }
+        .dock .dx b { color: var(--ink); font-family: var(--font-display); font-weight: 700; }
+        .dock .btn { padding: 11px 22px; font-size: 13px; }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 720px) {
+            body { font-size: 17px; }
+            .nav-links { display: none; }
+            .shell { margin: 16px auto 30px; padding: 0 12px; }
+            .card { padding: 28px 22px 32px; border-radius: 14px; }
+            h1.title { font-size: 29px; }
+            .standfirst { font-size: 18px; }
+            h2.sec { font-size: 22px; margin-top: 40px; }
+            .quote p { font-size: 21px; }
+            .prose { font-size: 17px; }
+            .specs { grid-template-columns: 1fr; }
+            .features { grid-template-columns: 1fr; }
+            .buy { grid-template-columns: 1fr; }
+            .buy .pic { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.12); padding: 22px 22px 6px; }
+            .buy .pic img { max-width: 180px; }
+            .comment.reply { margin-left: 16px; }
+            figure.media.hero img { padding: 16px 18px; }
+        }
+        @media (max-width: 440px) {
+            h1.title { font-size: 25px; }
+            .card { padding: 24px 16px 28px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="reading-bar" id="readingBar"></div>
+
+<nav class="navbar">
+    <div class="navbar-inner">
+        <a class="brand" href="#">
+            <span class="mark" aria-hidden="true">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            </span>
+            <span class="name">Night<b>ingale</b></span>
+        </a>
+        <div class="nav-links">
+            <a href="#">Sleep</a>
+            <a href="#">Health</a>
+            <a href="#">Real Stories</a>
+            <a href="#">About</a>
+        </div>
+    </div>
+</nav>
+
+<div class="shell">
+<article class="card">
+
+    <span class="eyebrow">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        Sleep &amp; Marriage &middot; Reader Story
+    </span>
+
+    <h1 class="title">After Almost 1,400 Nights in the Spare Room, an Odd German Contour Pillow <span>Brought Me Back to My Husband&rsquo;s Bed in Eight Nights</span></h1>
+
+    <p class="standfirst">Nasal strips, throat sprays, a custom mouthguard, even a CPAP machine &mdash; all of it failed. The thing that finally softened my husband&rsquo;s snoring was a shaped, ergonomic memory-foam pillow I nearly threw away unopened.</p>
+
+    <div class="writer">
+        <span class="avatar" style="background:#7a4fb0;">DM</span>
+        <div class="who">
+            <div class="nm">By Diane Mercer</div>
+            <div class="mt">
+                <span class="js-date-long"></span>
+                <span>9 min read</span>
+                <span>Reader-submitted</span>
+            </div>
+        </div>
+    </div>
+
+    <figure class="media hero">
+        <img src="img/producto.png" alt="NeckNest Contour ergonomic memory-foam pillow, viewed from above">
+        <figcaption>The pillow at the heart of this story &mdash; the NeckNest Contour, in a manufacturer photograph.</figcaption>
+    </figure>
+
+    <div class="prose first">
+        <p>It was a Thursday night in February of 2022 when I carried my pillow down the hall. No slammed doors. No tears. I just pulled the spare quilt off the closet shelf, made up the bed in the back room, and lay down on sheets that smelled of cedar and old lavender.</p>
+
+        <p>The clock by the guest bed read 2:53 in the morning.</p>
+
+        <p>And even there, two rooms away, I could hear it. The noise that had quietly become the background hum of my whole life. <strong>A deep, grinding, mechanical snore</strong> &mdash; the kind that travels through walls and bed frames and settles into the bones of whoever is trying to sleep nearby.</p>
+
+        <p>My husband, Gary, has been the great love of my life since I was twenty-eight. He is a gentle man. A devoted father. The kind of grandfather who pretends to lose at checkers. He warms up my car on cold mornings and once drove three hours in sleet to retrieve the casserole dish I&rsquo;d left at my sister&rsquo;s.</p>
+
+        <p>And for the better part of a decade, his snoring had been slowly wearing me down to nothing.</p>
+
+        <p>That February night was the night I finally admitted, to myself, that I couldn&rsquo;t keep going.</p>
+
+        <p><em>&ldquo;Only for tonight,&rdquo;</em> I whispered, pulling the unfamiliar quilt up under my chin.</p>
+    </div>
+
+    <div class="quote"><p>That &ldquo;only for tonight&rdquo; stretched into nearly 1,400 nights.</p></div>
+
+    <div class="prose">
+        <p>Almost four years.</p>
+
+        <p>Four years sleeping alone in the spare room of my own home, married to the man I adored, while he slept barely twenty feet away on the far side of a wall.</p>
+
+        <p>My name is Diane Mercer. I&rsquo;m fifty-seven. I live in a small town in Ohio &mdash; the kind of place where the cashier knows your coffee order and your dog&rsquo;s name. Gary and I have been married twenty-nine years. We have two grown children and a granddaughter, Lucy, who is five and insists I read her exactly four picture books every Sunday afternoon.</p>
+
+        <p>I tell you all of this so you understand one thing: <strong>I am not someone who gives up.</strong> I raised two kids while running the payroll office for our school district. I helped my father through his last two years. I bailed out a flooded basement three springs in a row without losing my temper.</p>
+
+        <p>I am, by temperament, a fixer.</p>
+
+        <p>But Gary&rsquo;s snoring was the one thing I could not fix.</p>
+
+        <p>And here is what nobody warns you about a problem like that &mdash; the slow kind, the kind that grinds you down a little more every single night: <em>it doesn&rsquo;t only steal your sleep.</em></p>
+
+        <p><strong>It quietly steals your marriage too.</strong></p>
+
+        <p>Politely. Almost invisibly. While the two of you keep insisting everything is fine.</p>
+    </div>
+
+    <h2 class="sec">It crept up on us. These things always do.</h2>
+
+    <div class="prose">
+        <p>When Gary and I married back in 1997, he slept like a baby.</p>
+
+        <p>I still remember our honeymoon on Mackinac Island &mdash; the creaky little inn, the fudge shops, the view of the straits &mdash; and that first morning when I woke before him and just watched him breathe. Slow. Quiet. Even. The kind of breathing that explains why we have a word like <em>peace</em> at all.</p>
+
+        <p>The snoring arrived somewhere in his late thirties. Gentle at first, just a low purr. I&rsquo;d give him a nudge, he&rsquo;d turn over, and it would stop. We&rsquo;d joke about it over breakfast.</p>
+
+        <p>Then came his forties.</p>
+
+        <p>The purr turned into a rumble. The rumble turned into a roar. By the time he hit fifty, his snoring sounded like <strong>a diesel truck struggling to turn over on a January morning.</strong></p>
+
+        <p>It stopped being charming. It stopped being a breakfast joke. It became the thing I dreaded the second the bedside lamp clicked off.</p>
+
+        <p>And here&rsquo;s the part that sneaks up on you:</p>
+
+        <p><strong>I started keeping count.</strong></p>
+
+        <p>Counting the broken hours. Counting how many times I had to elbow him awake in a single night (some nights five, six times). Counting the headaches that began clocking in around three every afternoon. Counting the minutes I spent sitting in the parking lot before work, too drained to walk inside.</p>
+
+        <p>By my best estimate, I was sleeping somewhere around <strong>four hours a night.</strong></p>
+
+        <p>For years on end.</p>
+    </div>
+
+    <div class="prose">
+        <p>The exhaustion was the obvious price.</p>
+
+        <p>What blindsided me was the <strong>resentment.</strong></p>
+
+        <p>It seeped in slowly, like a draft under a door. I&rsquo;d lie there at 1 a.m., staring at the ceiling, and catch myself thinking things that frightened me.</p>
+
+        <p><em>How is he sleeping through this?</em></p>
+
+        <p><em>Doesn&rsquo;t he care that I&rsquo;m falling apart?</em></p>
+
+        <p><em>If he really loved me, he&rsquo;d have fixed this by now.</em></p>
+
+        <p>And then I&rsquo;d remember &mdash; he <em>had</em> tried. He&rsquo;d tried so many things. (I&rsquo;ll get to those.) None of them had worked.</p>
+
+        <p>But at 1 a.m., with your eyes burning and the headboard rattling, reason packs up and leaves.</p>
+    </div>
+
+    <div class="quote"><p>Resentment moves into the space it leaves behind. And resentment, I&rsquo;ve learned, is one of the quietest things that can rot a marriage.</p></div>
+
+    <div class="divider"><span></span><span></span><span></span></div>
+
+    <h2 class="sec">We tried everything. I do mean everything.</h2>
+
+    <div class="prose">
+        <p>Gary is not a man who ignores a problem. When I finally broke down and told him, somewhere in the third year, exactly how bad it had gotten, he was crushed.</p>
+
+        <p><em>&ldquo;Why didn&rsquo;t you say something sooner?&rdquo;</em> he kept asking.</p>
+
+        <p>The truth is, I had. I&rsquo;d been telling him for years. He just hadn&rsquo;t grasped what it was costing me until he found me crying over a plate of cold eggs one Saturday morning.</p>
+
+        <p>From that day on, Gary was on a mission. Here is the short version of what we worked through:</p>
+    </div>
+
+    <ul class="tried">
+        <li>
+            <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="9" width="18" height="6" rx="3"/></svg></span>
+            <span class="tx"><b>Nasal strips.</b> The little adhesive bands you see at every drugstore. Gary wore one every night for two months. They cut the noise by maybe a tenth for the first hour, then his nose adjusted and the volume came right back. <em>About $34 a month.</em> My result: I bought earplugs by the case.</span>
+        </li>
+        <li>
+            <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2h6v3l-1 2v4l3 9H7l3-9V7L9 5z"/></svg></span>
+            <span class="tx"><b>Throat sprays.</b> Five different brands. One tasted of menthol, one of burnt anise, one &mdash; he swore &mdash; of &ldquo;a public pool in August.&rdquo; Every label promised to coat the soft tissue and cut the vibration. One worked for about a week before it irritated his throat. The rest did nothing.</span>
+        </li>
+        <li>
+            <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8c0-2 2-3 7-3s7 1 7 3c0 4-1 7-3 7-1.5 0-1.5-2-4-2s-2.5 2-4 2c-2 0-3-3-3-7z"/></svg></span>
+            <span class="tx"><b>A custom mouthguard.</b> Fitted by our dentist. <em>$420 out of pocket.</em> He showed us slick animations of how it eased the lower jaw forward to keep the airway open. Gary wore it six weeks. It made his jaw ache, left him with a slight overbite by morning, and had him drooling like a teething toddler. The snoring dipped a little &mdash; still loud enough to wake me through earplugs.</span>
+        </li>
+        <li>
+            <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a5 5 0 0 0-5 5v4l-2 4h14l-2-4V7a5 5 0 0 0-5-5z"/><path d="M9 19a3 3 0 0 0 6 0"/></svg></span>
+            <span class="tx"><b>The ENT and the sleep study.</b> The specialist looked up his nose, down his throat, and sent him for a sleep study. We drove thirty-five miles to a clinic where Gary spent a night wired to more sensors than I could count. The verdict: <strong>moderate obstructive sleep apnea.</strong> The recommendation: a CPAP machine.</span>
+        </li>
+    </ul>
+
+    <div class="prose">
+        <p>I want to be very clear about what comes next.</p>
+
+        <p><strong>If a doctor has prescribed you a CPAP machine, please use it.</strong> Sleep apnea is a genuine medical condition with serious consequences, and CPAP is the gold-standard treatment for good reason. This is simply our story. Gary&rsquo;s story.</p>
+
+        <p>He gave it an honest try. He really did.</p>
+
+        <p>For nine nights he wore that mask. The first night he sounded like a scuba diver. The second, the seal popped and a jet of air whistled out the side and woke us both at 4 a.m. The third, the strap left a red welt across his cheek that didn&rsquo;t fade until lunchtime.</p>
+
+        <p>On the ninth night he sat bolt upright at 2 a.m., tore the mask off, flung it toward the dresser and said:</p>
+
+        <p><em>&ldquo;Diane. I can&rsquo;t. I&rsquo;d sooner snore till the day I die than strap this thing on one more night.&rdquo;</em></p>
+
+        <p>He went back and tried a different style &mdash; nasal pillows instead of the full mask. He managed three nights before his nostrils were so raw they bled.</p>
+
+        <p>The CPAP went into the closet. It&rsquo;s still up there. (I checked the shelf before writing this. There&rsquo;s a thin film of dust on the lid.)</p>
+
+        <p>And that is the night I moved into the spare room.</p>
+    </div>
+
+    <h2 class="sec">Four years of calling it a &ldquo;healthy compromise&rdquo;</h2>
+
+    <div class="prose">
+        <p>Here&rsquo;s the part I wish I&rsquo;d admitted to myself far sooner:</p>
+
+        <p>For most of those four years, I told myself it was fine.</p>
+
+        <p>I read the articles &mdash; there are a thousand of them &mdash; with upbeat headlines like <em>&ldquo;Why a &lsquo;Sleep Divorce&rsquo; Could Be the Best Thing for Your Relationship.&rdquo;</em> They always quoted some specialist saying rest matters more than tradition, that couples who sleep apart often report being happier.</p>
+
+        <p>I clung to those articles the way a drowning person clings to anything that floats.</p>
+
+        <p>And on the surface, our marriage looked perfectly normal. Gary and I ate breakfast together. We watched the evening news. We took a walk after dinner. We still held hands in the cereal aisle like a couple of teenagers.</p>
+
+        <p>But something had gone missing. It took me a long while to find the word for it.</p>
+
+        <p><strong>Closeness.</strong></p>
+
+        <p>Not only the physical kind &mdash; though yes, that faded too &mdash; but the small, stacked-up intimacy of two people sharing one bed.</p>
+
+        <p>The way you reach out at 3 a.m. and your hand lands on a warm shoulder. The mumbled half-asleep exchange about something you almost forgot to mention. The morning one of you wakes first and watches the other sleep for a minute before slipping out to make coffee.</p>
+
+        <p>That&rsquo;s twenty-nine years of tiny moments. And we&rsquo;d simply stopped having them.</p>
+
+        <p>We had become, in the painfully accurate phrase a counselor once used about a different couple, <em>&ldquo;courteous roommates who happen to be married.&rdquo;</em></p>
+
+        <p>I did not want to be courteous roommates with my husband.</p>
+    </div>
+
+    <div class="quote"><p>I wanted my marriage back.</p></div>
+
+    <!-- ===== CTA CARD #1 ===== -->
+    <aside class="buy">
+        <div class="pic"><img src="img/producto.png" alt="NeckNest Contour ergonomic memory-foam pillow"></div>
+        <div class="body">
+            <div class="kick">The pillow in question</div>
+            <h3>If you want to see exactly what Diane ended up ordering.</h3>
+            <p class="bl">Currently up to 70% off with a 60-night at-home sleep trial direct from the maker, as of this article&rsquo;s publication.</p>
+            <a href="https://get-derila-ergo.com/derila-ergo/product?prodpv=9&amp;hv=0&amp;_=10373&amp;vndr=evf&amp;evf=1" class="btn">Check NeckNest availability <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <div class="note"><strong>NOTE</strong> &mdash; Stock on certain models has been coming and going. Confirm it&rsquo;s in stock at the link above before you order.</div>
+        </div>
+    </aside>
+
+    <h2 class="sec">My sister-in-law sent me a link. I nearly didn&rsquo;t click it.</h2>
+
+    <div class="prose">
+        <p>Brenda is Gary&rsquo;s older sister. She&rsquo;s a retired school nurse, sixty-four, and blunt in the particular way that only retired nurses can get away with.</p>
+
+        <p>She&rsquo;d caught wind of my situation through the family grapevine. (My daughter Allison had let it slip on a phone call. Our family grapevine is nothing if not efficient.)</p>
+
+        <p>One Sunday morning last October, Brenda called.</p>
+
+        <p><em>&ldquo;Diane. I&rsquo;m sending you a link. I want you to actually read it &mdash; really read it, not just tell me you did.&rdquo;</em></p>
+
+        <p>I sighed. By that point in this saga, every helpful suggestion landed like a small insult. <em>Have you tried propping his head up? Cutting out dairy? Sewing a tennis ball into the back of his pajamas?</em></p>
+
+        <p>Yes. We&rsquo;d done the tennis ball. (It did nothing. Gary just rolled onto his side and snored at a fresh angle.)</p>
+
+        <p>But Brenda is family. So I promised I&rsquo;d read it.</p>
+
+        <p>The article was about <strong>cervical alignment and the position of the airway during sleep.</strong> And, honestly, it was the first thing I&rsquo;d ever read on the subject that didn&rsquo;t feel like an infomercial.</p>
+    </div>
+
+    <figure class="media">
+        <img src="img/01.png" alt="Diagram of cervical alignment, showing a contour pillow supporting the natural curve of the neck and spine">
+        <figcaption>From the article Brenda sent &mdash; how a contoured pillow holds the neck in line with the spine instead of letting the head slump forward.</figcaption>
+    </figure>
+
+    <div class="prose">
+        <p>The idea was simple, and it made a kind of sense I&rsquo;d never seen spelled out before.</p>
+
+        <p>Most of us, the article said, sleep on pillows that do <em>one thing</em>: prop the head up. That&rsquo;s it. They&rsquo;re soft and they feel pleasant when you flop down, but they&rsquo;re really just rectangles of fluff.</p>
+
+        <p>The trouble is what happens to your neck during the seven or eight hours you&rsquo;re unconscious.</p>
+
+        <p>If the pillow sits too high, your chin gets driven toward your chest, which can <strong>pinch the airway at the back of the throat</strong> &mdash; exactly where a snore is loudest. Too low, and your head tips back and your jaw falls open, often with the same result. And if the shape is wrong for the way you sleep, your neck twists in small, constant ways you don&rsquo;t notice until you wake up stiff.</p>
+
+        <p>The piece explained that some sleep specialists believe pillow ergonomics can genuinely affect how comfortably you breathe at night &mdash; <em>not as a treatment for any diagnosed disorder</em>, but as one factor in how loudly and how often a person snores.</p>
+
+        <p><strong>It wasn&rsquo;t a cure.</strong> It wasn&rsquo;t a miracle. It was just one piece of the puzzle almost nobody bothered to mention.</p>
+
+        <p>And then, almost in passing, the article named a German-engineered ergonomic pillow built specifically around the problem. It was called the <strong>NeckNest Contour.</strong></p>
+    </div>
+
+    <h2 class="sec">I spent three hours reading about it that night</h2>
+
+    <div class="prose">
+        <p>I&rsquo;m naturally suspicious of new products. After everything we&rsquo;d tried, I&rsquo;d developed a kind of allergy to anything claiming to fix Gary&rsquo;s snoring. So I did what any worn-out, fifty-seven-year-old wife would do: I sat at the kitchen table with my reading glasses and a cold mug of tea, and I read.</p>
+
+        <p>I read the manufacturer&rsquo;s claims. I read reviews. I read the comments under the reviews. I read the fine print. I studied the pillow from every angle I could find.</p>
+
+        <p>Here&rsquo;s what I came away with.</p>
+    </div>
+
+    <figure class="media">
+        <img src="img/03.png" alt="Manufacturer demonstration of the contour pillow supporting cervical alignment during back sleeping">
+        <figcaption>A manufacturer demonstration of neck alignment with the pillow in the back-sleeping position.</figcaption>
+    </figure>
+
+    <div class="specs">
+        <div class="spec">
+            <div class="hd"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14c4-1 6-1 9 0s6 1 9 0"/><path d="M3 14v-3a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v3"/></svg></span><span class="lb">What it is</span></div>
+            <div class="vl">A contoured memory-foam pillow, German-engineered, shaped around cervical alignment.</div>
+        </div>
+        <div class="spec">
+            <div class="hd"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8a8 4 0 0 1 16 0v8a8 4 0 0 1-16 0z"/><path d="M4 12a8 4 0 0 0 16 0"/></svg></span><span class="lb">The foam</span></div>
+            <div class="vl"><strong>Slow-response viscoelastic.</strong> It compresses gradually and eases back into shape &mdash; the same grade used in quality memory-foam mattresses.</div>
+        </div>
+        <div class="spec">
+            <div class="hd"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7l8-4 8 4-8 4z"/><path d="M4 7v10l8 4 8-4V7"/></svg></span><span class="lb">The cover</span></div>
+            <div class="vl"><strong>Nylon-elastane blend.</strong> Breathable, machine-washable at 86&deg;F, and treated to resist dust mites.</div>
+        </div>
+        <div class="spec">
+            <div class="hd"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M3 7v10h18V7M7 7v10M17 7v10"/></svg></span><span class="lb">Dimensions</span></div>
+            <div class="vl">21&Prime; wide &times; 14&Prime; tall &mdash; standard pillow size, in a contoured profile.</div>
+        </div>
+        <div class="spec">
+            <div class="hd"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12a10 10 0 0 1 20 0"/><circle cx="7" cy="12" r="1.5"/><circle cx="12" cy="11" r="1.5"/><circle cx="17" cy="12" r="1.5"/></svg></span><span class="lb">Positions</span></div>
+            <div class="vl">Built for back, side, <strong>and</strong> stomach sleepers (most contour pillows pick only one).</div>
+        </div>
+        <div class="spec">
+            <div class="hd"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><span class="lb">Trial period</span></div>
+            <div class="vl"><strong>60 nights at home</strong>, with a full refund if it isn&rsquo;t for you.</div>
+        </div>
+    </div>
+
+    <div class="prose">
+        <p>Now &mdash; and this part matters &mdash; <strong>the NeckNest Contour is not a medical device.</strong></p>
+
+        <p>It does not claim to treat sleep apnea. It does not claim to cure snoring. In its own materials, the company is careful to call it <em>a comfort and posture-support product</em>, not a clinical treatment.</p>
+
+        <p>Which, frankly, is part of why I trusted it.</p>
+
+        <p>After years of being lied to by snore-stopper companies, I&rsquo;ve learned that <strong>the products that overpromise are usually the ones that under-deliver.</strong></p>
+    </div>
+
+    <aside class="callout">
+        <span class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg></span>
+        <div>
+            <div class="lb">A word on expectations</div>
+            <p>If you&rsquo;re reading this and your partner has been diagnosed with sleep apnea, please hear me: <strong>a pillow is not a replacement for medical treatment.</strong> If a doctor has prescribed CPAP, an oral appliance, or anything else, follow that advice first. The NeckNest Contour is a comfort and posture-support pillow. For some people, better neck alignment can mean calmer, quieter breathing &mdash; but it is not, and does not claim to be, a cure for any sleep disorder. Talk to your doctor about your own situation.</p>
+        </div>
+    </aside>
+
+    <h2 class="sec">One detail is what finally made up my mind</h2>
+
+    <div class="prose">
+        <p>That detail was this: <strong>60 nights.</strong></p>
+
+        <p>The NeckNest comes with a 60-night at-home sleep trial. If you don&rsquo;t love it, you send it back for a full refund.</p>
+
+        <p>Sixty nights is a serious amount of time. It&rsquo;s long enough that you can&rsquo;t fool yourself with a placebo. Long enough to tell whether a change is real or imagined. And long enough that the company is essentially saying: <em>we&rsquo;re confident you&rsquo;ll keep it.</em></p>
+
+        <p>I&rsquo;ve come to believe that any product willing to stake sixty nights against a full refund is far more confident than one that just slaps &ldquo;satisfaction guaranteed&rdquo; on the box.</p>
+
+        <p>So I ordered it.</p>
+
+        <p>It was a Tuesday evening. The promotion at the time was <strong>70% off the regular price.</strong> I double- and triple-checked the shipping address before I hit confirm.</p>
+
+        <p>I didn&rsquo;t breathe a word to Gary.</p>
+
+        <p>I&rsquo;ll be honest: by then I&rsquo;d carted home so many failed snore gadgets that he&rsquo;d developed a tired little smile whenever a new box turned up. <em>&ldquo;Another one, huh?&rdquo;</em> he&rsquo;d say, and I&rsquo;d nod, and we&rsquo;d both pretend to feel hopeful. I didn&rsquo;t want that smile this time. I wanted to wait until I knew for sure.</p>
+
+        <p>The package arrived three days later.</p>
+
+        <p>I opened it in the bedroom while Gary was out at the hardware store. The pillow came rolled and vacuum-sealed, the way good memory foam usually does. I cut the plastic and watched it slowly unfurl across the bed, taking shape like something quietly waking from a nap.</p>
+
+        <p>It was firmer than my old pillow. Not hard &mdash; firm. The kind of firm that holds when you press a hand into it and then slowly fills back in.</p>
+
+        <p>The contour along the lower edge was unmistakable. When I lay down, my neck settled into the raised section as if it had been waiting for it. I sat up. Lay back down on my side. The contour adjusted, cradling my neck without shoving my head too high. I tried it on my stomach &mdash; my preferred position for forty years &mdash; and the head section was thin enough that my neck didn&rsquo;t feel cranked backward.</p>
+
+        <p><em>Huh.</em> That was the entirety of my thought. <em>Huh.</em></p>
+
+        <p>I set the new pillow on Gary&rsquo;s side of the bed, smoothed the covers, closed the door, and went down to start dinner. I said nothing.</p>
+    </div>
+
+    <div class="divider"><span></span><span></span><span></span></div>
+
+    <h2 class="sec">What unfolded over the next eight nights</h2>
+
+    <div class="timeline">
+        <div class="node">
+            <div class="lab">Night One</div>
+            <p>Gary spotted the new pillow the moment he sat on the bed. <em>&ldquo;This new?&rdquo;</em> he asked. I said yes, just give it a try, please don&rsquo;t make a thing of it. He shrugged, lay back. <em>&ldquo;Firmer than my old one.&rdquo;</em> Then, a beat later: <em>&ldquo;But my neck likes it.&rdquo;</em></p>
+            <p>I went to the spare room as always and lay in the dark, listening through the wall. The snoring started about twenty minutes after his light went off. <em>Of course</em>, I thought. <em>Why did I expect anything else?</em> But here&rsquo;s what caught me off guard: <strong>it was different.</strong> Quieter. Steadier. Less of the gasping, sawing edge. I slept until 6 a.m. &mdash; nearly six hours, the longest stretch I&rsquo;d had in years.</p>
+        </div>
+        <div class="node">
+            <div class="lab">Nights Two &amp; Three</div>
+            <p>The same pattern. The snoring was there, but softer than the old version, with stretches of almost silent breathing I could just make out when the house was still. I started leaving the spare-room door cracked so I could listen. I felt a little ridiculous about that &mdash; like a teenager waiting up for her parents.</p>
+        </div>
+        <div class="node">
+            <div class="lab">Nights Four to Six</div>
+            <p>Gary noticed before I said anything. On the morning of the fifth day he came into the kitchen, rubbed his eyes, and said: <em>&ldquo;I might be imagining this. But I think I&rsquo;m sleeping better.&rdquo;</em></p>
+            <p>I asked him what he meant. His neck felt better in the mornings, he said. He wasn&rsquo;t jolting himself awake coughing the way he used to. He felt &mdash; his word &mdash; <em>&ldquo;less foggy.&rdquo;</em> I didn&rsquo;t tell him I&rsquo;d been listening through the wall.</p>
+        </div>
+        <div class="node peak">
+            <div class="lab">Night Seven</div>
+            <p>I opened the spare-room door wider that night and lay there listening, and at some point I realized I was holding my breath.</p>
+            <p>Through the wall I could hear Gary breathing. Deep. Heavy. <strong>But not loud.</strong> I lay there for an hour, just listening, and then I cried &mdash; very quietly &mdash; because I hadn&rsquo;t heard my husband breathe like that since the late nineties.</p>
+        </div>
+        <div class="node">
+            <div class="lab">Night Eight</div>
+            <p>At dinner I told Gary, with some difficulty, that I was thinking about coming back to our bed.</p>
+            <p>He set down his fork and looked at me for a long moment. <em>&ldquo;Diane.&rdquo;</em> He cleared his throat. <em>&ldquo;I&rsquo;d like that very much.&rdquo;</em></p>
+            <p>That night I walked down the hall with my pillow under my arm, in the opposite direction this time, and closed our bedroom door behind me. I lay down beside my husband for the first time in nearly 1,400 nights. He reached over in the dark and took my hand. Neither of us said a word. I fell asleep before he did, and I woke at 6:30 having slept seven and a half hours &mdash; in my own bed, next to my own husband, for the first time since 2022.</p>
+        </div>
+    </div>
+
+    <figure class="media">
+        <img src="img/06.png" alt="Demonstration of cervical alignment with a male sleeper resting on the contour pillow">
+        <figcaption>The contour keeps the head in line with the spine instead of letting the chin drift toward the chest &mdash; the one small thing Gary&rsquo;s old pillow could never manage.</figcaption>
+    </figure>
+
+    <!-- ===== CTA CARD #2 ===== -->
+    <aside class="buy" id="trigger-section">
+        <div class="pic"><img src="img/producto.png" alt="NeckNest Contour ergonomic memory-foam pillow"></div>
+        <div class="body">
+            <div class="kick">If this story sounds like yours</div>
+            <h3>The same pillow Diane describes is being sold direct right now.</h3>
+            <p class="bl">If it doesn&rsquo;t work for you, the 60-night trial means you simply send it back. The downside is small.</p>
+            <a href="https://get-derila-ergo.com/derila-ergo/product?prodpv=9&amp;hv=0&amp;_=10373&amp;vndr=evf&amp;evf=1" class="btn">See NeckNest pricing <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <div class="note"><strong>AS OF <span class="js-date-short"></span></strong> &mdash; In stock at the maker&rsquo;s site at up to 70% off; U.S. shipping in 2&ndash;5 business days; trial included.</div>
+        </div>
+    </aside>
+
+    <h2 class="sec">What made the difference, as far as I can tell</h2>
+
+    <div class="prose">
+        <p>I&rsquo;m no sleep scientist. I&rsquo;m a retired payroll clerk from Ohio. So please take all of this as <em>one woman&rsquo;s account of why this thing seemed to help in her house</em> &mdash; not as a medical claim.</p>
+    </div>
+
+    <figure class="media">
+        <img src="img/04.png" alt="Sleeper on the contour pillow with an overlay illustrating the open airway and circulation">
+        <figcaption>When the head sits in line with the spine instead of pitching forward, the airway stays open through the night.</figcaption>
+    </figure>
+
+    <div class="features">
+        <div class="feat">
+            <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15c4-2 6-2 9 0s6 1 9-1"/><path d="M3 15v-3a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v2"/></svg></div>
+            <h3>The contour is the whole idea</h3>
+            <p>Most pillows are rectangles. This one is shaped, with a raised ridge along the lower edge to support the neck&rsquo;s natural curve. On his back, it holds Gary&rsquo;s neck in line with his spine instead of letting his chin drop forward and close off the airway as the night wears on.</p>
+        </div>
+        <div class="feat">
+            <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12a10 10 0 0 1 20 0"/><circle cx="6" cy="12" r="1.6"/><circle cx="12" cy="11" r="1.6"/><circle cx="18" cy="12" r="1.6"/></svg></div>
+            <h3>It works in any position</h3>
+            <p>Gary flips between his back and his side without meaning to. Most contour pillows I&rsquo;d looked at were built for one position only &mdash; usually back &mdash; and became a torture device the second you rolled over. This one is shaped to work on your back, your side, and even your stomach.</p>
+        </div>
+        <div class="feat">
+            <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8a8 4 0 0 1 16 0v8a8 4 0 0 1-16 0z"/><path d="M4 12a8 4 0 0 0 16 0"/></svg></div>
+            <h3>Slow-response memory foam</h3>
+            <p>Not the bouncy kind &mdash; the slow kind that yields gradually under your head and eases back into shape when you move. Cheaper foams &ldquo;remember&rdquo; the wrong shape and develop a permanent dent within weeks. Slow-response viscoelastic holds up far better.</p>
+        </div>
+        <div class="feat">
+            <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a4 4 0 0 0-4 4c0 3 4 5 4 5s4-2 4-5a4 4 0 0 0-4-4z"/><path d="M5 20c1-3 4-4 7-4s6 1 7 4"/></svg></div>
+            <h3>Breathable cover, washable</h3>
+            <p>The cover is a light, breathable nylon-elastane blend that comes off and goes in the machine on cold (86&deg;F), then hangs to dry. Gary runs warm, especially in summer, and this one doesn&rsquo;t trap heat the way some foam pillows do.</p>
+        </div>
+        <div class="feat">
+            <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+            <h3>Dust-mite resistant</h3>
+            <p>Gary gets mild seasonal allergies, so the dust-mite treatment on the cover mattered to us &mdash; a small thing, but a meaningful one when you&rsquo;ve got your face on it for eight hours a night.</p>
+        </div>
+        <div class="feat">
+            <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+            <h3>The 60-night trial</h3>
+            <p>Sixty nights, full refund if it doesn&rsquo;t work out. That guarantee is exactly why I felt fine ordering one without telling Gary &mdash; I knew that if it flopped, I could quietly return it and we&rsquo;d be no worse off.</p>
+        </div>
+    </div>
+
+    <figure class="media">
+        <img src="img/05.png" alt="Stack of NeckNest Contour pillows showing the foam structure and contoured profile">
+        <figcaption>Stacked NeckNest pillows &mdash; the slow-response foam keeps its contoured shape even under load.</figcaption>
+    </figure>
+
+    <div class="prose">
+        <p>There&rsquo;s one more thing worth mentioning, and it&rsquo;s about money. Unlike nasal strips ($34 a month), throat sprays ($25 a month) and the various snore-tracking apps with their monthly fees, the pillow is a one-time purchase. When I added up everything we&rsquo;d burned through on disposable snore products over the years, the pillow had paid for itself in roughly four months &mdash; and it&rsquo;s still on Gary&rsquo;s side of the bed nine months later.</p>
+    </div>
+
+    <figure class="media">
+        <img src="img/07.png" alt="Removable nylon-elastane cover and a demonstration of machine washing it">
+        <figcaption>The cover unzips and goes straight into the wash at 86&deg;F, then hangs to dry.</figcaption>
+    </figure>
+
+    <h2 class="sec">How it compares to what we&rsquo;d already paid for</h2>
+
+    <div class="compare">
+        <table class="cmp">
+            <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th class="hl">NeckNest Contour</th>
+                    <th>Standard pillow</th>
+                    <th>Wedge pillow</th>
+                    <th>Mouthguard</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Targets neck alignment</th>
+                    <td class="hl"><span class="yes">Yes &mdash; contoured</span></td>
+                    <td class="no">No</td>
+                    <td>Partly</td>
+                    <td class="no">No (jaw only)</td>
+                </tr>
+                <tr>
+                    <th>Works in multiple positions</th>
+                    <td class="hl"><span class="yes">Yes</span></td>
+                    <td>Yes</td>
+                    <td>Back only</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <th>Comfortable all night</th>
+                    <td class="hl"><span class="yes">Generally</span></td>
+                    <td>Yes</td>
+                    <td>Restrictive</td>
+                    <td>Often sore jaw</td>
+                </tr>
+                <tr>
+                    <th>Trial period</th>
+                    <td class="hl"><span class="yes">60 nights</span></td>
+                    <td>Varies</td>
+                    <td>Varies</td>
+                    <td class="no">Usually none</td>
+                </tr>
+                <tr>
+                    <th>Recurring cost</th>
+                    <td class="hl"><span class="yes">None</span></td>
+                    <td>None</td>
+                    <td>None</td>
+                    <td>Replace every 6&ndash;12 mo.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p class="cmp-note">This table reflects general retail experience and Diane&rsquo;s own household; actual pricing and features vary by product. None of it is a substitute for medical advice on a diagnosed sleep disorder.</p>
+
+    <figure class="media">
+        <img src="img/02.png" alt="Side-sleeper resting on the contoured NeckNest pillow">
+        <figcaption>Side-sleeping position &mdash; the lateral edge of the contour cradles the curve of the neck without forcing the head upward.</figcaption>
+    </figure>
+
+    <h2 class="sec">What other couples have written to tell me</h2>
+
+    <div class="prose">
+        <p>After this piece first went around, the emails started arriving &mdash; a lot of them. From wives, husbands, and the grown children of snorers. Here are a few I asked permission to share.</p>
+    </div>
+
+    <div class="reviews">
+        <div class="review">
+            <div class="stars">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 18l-6.4 3.2L6.8 14 1.8 9.4l7-.9z"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 18l-6.4 3.2L6.8 14 1.8 9.4l7-.9z"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 18l-6.4 3.2L6.8 14 1.8 9.4l7-.9z"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 18l-6.4 3.2L6.8 14 1.8 9.4l7-.9z"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 18l-6.4 3.2L6.8 14 1.8 9.4l7-.9z"/></svg>
+                <span class="vb">Verified buyer</span>
+            </div>
+            <div class="rb">My husband and I had been doing the &ldquo;separate rooms&rdquo; thing for nearly three years. I was embarrassed about it, but I was running on empty. I bought him this pillow mostly because I was out of ideas. It wasn&rsquo;t instant &mdash; but by the second week his snoring was clearly softer, and I found myself staying in our bed more nights than not. We sleep together full-time again now. Not perfect, but it&rsquo;s our marriage again.</div>
+            <div class="ra"><span class="avatar" style="background:#4f46c9;">MD</span><div><div class="nm">Marcia D., 60</div><div class="loc">Spokane, WA</div></div></div>
+        </div>
+
+        <div class="review">
+            <div class="stars">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 18l-6.4 3.2L6.8 14 1.8 9.4l7-.9z"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 18l-6.4 3.2L6.8 14 1.8 9.4l7-.9z"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 18l-6.4 3.2L6.8 14 1.8 9.4l7-.9z"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 18l-6.4 3.2L6.8 14 1.8 9.4l7-.9z"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 18l-6.4 3.2L6.8 14 1.8 9.4l7-.9z"/></svg>
+                <span class="vb">Verified buyer</span>
+            </div>
+            <div class="rb">I&rsquo;m a side sleeper with chronic neck trouble from a car wreck back in 2008. I bought this more for the cervical support than the snoring. I&rsquo;ll be straight: my neck still aches some mornings &mdash; it&rsquo;s not magic &mdash; but I&rsquo;m not waking at 4 a.m. with it anymore, and my wife says I&rsquo;m quieter too. Four stars because nothing&rsquo;s perfect, but it&rsquo;s the best pillow I&rsquo;ve owned.</div>
+            <div class="ra"><span class="avatar" style="background:#2f9461;">FR</span><div><div class="nm">Frank R., 66</div><div class="loc">Akron, OH</div></div></div>
+        </div>
+
+        <div class="review">
+            <div class="stars">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 18l-6.4 3.2L6.8 14 1.8 9.4l7-.9z"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 18l-6.4 3.2L6.8 14 1.8 9.4l7-.9z"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 18l-6.4 3.2L6.8 14 1.8 9.4l7-.9z"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 18l-6.4 3.2L6.8 14 1.8 9.4l7-.9z"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 18l-6.4 3.2L6.8 14 1.8 9.4l7-.9z"/></svg>
+                <span class="vb">Verified buyer</span>
+            </div>
+            <div class="rb">I&rsquo;ve bought four anti-snore pillows over the years. Three were awful. One was fine for a month and then went flat. This one is firmer than I expected and took me about three nights to get used to, but the trial period meant I never felt rushed. Eight weeks in, I&rsquo;m sold &mdash; and my husband notices it most of all. He says he wakes up far less often.</div>
+            <div class="ra"><span class="avatar" style="background:#ef6147;">LP</span><div><div class="nm">Lorraine P., 58</div><div class="loc">Des Moines, IA</div></div></div>
+        </div>
+
+        <div class="review">
+            <div class="stars">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 18l-6.4 3.2L6.8 14 1.8 9.4l7-.9z"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 18l-6.4 3.2L6.8 14 1.8 9.4l7-.9z"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 18l-6.4 3.2L6.8 14 1.8 9.4l7-.9z"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 18l-6.4 3.2L6.8 14 1.8 9.4l7-.9z"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 18l-6.4 3.2L6.8 14 1.8 9.4l7-.9z"/></svg>
+                <span class="vb">Verified buyer</span>
+            </div>
+            <div class="rb">Strict side sleeper here. Every pillow I&rsquo;ve ever owned eventually flattens overnight and leaves my neck bent at a bad angle. This one keeps its shape. I wake up without the morning crick I used to take for granted. I can&rsquo;t speak to the snoring &mdash; my husband says I&rsquo;m quieter but also that I was &ldquo;already pretty quiet&rdquo; &mdash; but for neck support, it&rsquo;s the genuine article.</div>
+            <div class="ra"><span class="avatar" style="background:#7a4fb0;">SK</span><div><div class="nm">Sandra K., 54</div><div class="loc">Raleigh, NC</div></div></div>
+        </div>
+    </div>
+
+    <div class="divider"><span></span><span></span><span></span></div>
+
+    <h2 class="sec">A few things I want to be honest about</h2>
+
+    <div class="honesty">
+        <div class="lb">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.4 5 5.6.8-4 3.9 1 5.5L12 19.8 6 17.2l1-5.5-4-3.9 5.6-.8z"/></svg>
+            The unvarnished version
+        </div>
+        <p>If you&rsquo;ve read this far, you&rsquo;ve earned the honest version.</p>
+        <p>Gary still snores some nights. <strong>Not every night, but some.</strong> When he&rsquo;s had a glass of wine with dinner. When he ends up on his back instead of his side. When he&rsquo;s fighting a cold. The pillow did not turn him into a silent sleeper.</p>
+        <p>What it did was move the snoring from <em>&ldquo;sleeping beside an idling truck&rdquo;</em> to <em>&ldquo;sleeping beside a man who breathes deeply.&rdquo;</em> The first is unlivable. The second you can live with.</p>
+        <p>It also took us roughly ten days to fully settle into the firmness. Gary needed about a week before he stopped remarking on how different it felt; I needed two before I trusted the change was real and not a fluke.</p>
+        <p>And one more thing: <strong>Gary&rsquo;s sleep apnea diagnosis did not disappear.</strong> A pillow does not cure sleep apnea. He went back to the ENT after three months on the new pillow, and they offered him a different style of oral appliance. He&rsquo;s weighing it. We&rsquo;re still working on his sleep, the way you keep working on anything that matters.</p>
+        <p>If you or your partner have apnea or any diagnosed sleep disorder, please &mdash; please &mdash; <strong>follow your doctor&rsquo;s guidance.</strong> A better pillow is not a stand-in for medical care.</p>
+        <p>But if you&rsquo;re like we were &mdash; exhausted, sleeping in separate rooms, fresh out of ideas, watching your marriage grow quieter and emptier year after year &mdash; this is one thing worth a try. <strong>For sixty nights, with a full refund if it falls flat, the downside is genuinely small.</strong></p>
+    </div>
+
+    <!-- ===== CTA CARD #3 (final) ===== -->
+    <aside class="buy">
+        <div class="pic"><img src="img/producto.png" alt="NeckNest Contour ergonomic memory-foam pillow"></div>
+        <div class="body">
+            <div class="kick">Where to find it</div>
+            <h3>Direct from the maker, with the trial period included.</h3>
+            <p class="bl">Contoured ergonomic shape &middot; slow-response viscoelastic foam &middot; breathable nylon-elastane cover, washable at 86&deg;F &middot; dust-mite resistant &middot; 60-night home trial &middot; one-time purchase &middot; up to 70% off (current promo).</p>
+            <a href="https://get-derila-ergo.com/derila-ergo/product?prodpv=9&amp;hv=0&amp;_=10373&amp;vndr=evf&amp;evf=1" class="btn">Order the NeckNest now <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <div class="note"><strong>VERIFIED IN STOCK</strong> &middot; <span class="js-date-full"></span> &middot; The 60-night trial comes with every order.</div>
+        </div>
+    </aside>
+
+    <h2 class="sec">It&rsquo;s June now. We&rsquo;ve shared a bed every night since December.</h2>
+
+    <div class="prose">
+        <p>I&rsquo;m writing this at the kitchen table. Gary is out back, building the raised garden bed for the strawberries our granddaughter Lucy talked us into planting for her birthday. It&rsquo;s a small thing, but I caught myself noticing it this morning:</p>
+
+        <p>The light came in through our bedroom window. Gary was already awake, reading. He glanced over and said, <em>&ldquo;Morning, sunshine,&rdquo;</em> the way he used to back in the nineties, before any of this began.</p>
+
+        <p>I can&rsquo;t fully explain how much I&rsquo;d missed that small, ordinary moment. For four years, the first thing I saw every morning was the faded wallpaper in the spare room. Now it&rsquo;s my husband&rsquo;s face.</p>
+
+        <p>I am not telling you this pillow will save your marriage. I am not telling you it cures anything. I am not telling you that what helped Gary will help whoever is sleeping &mdash; or not sleeping &mdash; beside you tonight.</p>
+
+        <p>What I am telling you is that <strong>I had given up.</strong></p>
+
+        <p>I had truly accepted that the polite-roommates version was the best my marriage was ever going to be. I&rsquo;d grieved it. I&rsquo;d made my peace with it, the way you do with things you can&rsquo;t change.</p>
+
+        <p>And I was wrong.</p>
+
+        <p>If you&rsquo;re lying awake right now on the wrong side of a wall, listening to someone you love &mdash; if you&rsquo;ve already given up &mdash; <strong>please don&rsquo;t.</strong></p>
+
+        <p>Sometimes the thing that mends it isn&rsquo;t the thing you&rsquo;d ever expect. Sometimes it&rsquo;s a pillow.</p>
+    </div>
+
+    <p class="signoff">
+        Diane M.
+        <span>Ohio &middot; June 2026</span>
+    </p>
+
+    <!-- ===== COMMENTS ===== -->
+    <section class="comments">
+        <div class="ch">Reader comments <span class="cnt">57</span></div>
+        <div class="csub">Comments have been closed for this story.</div>
+
+        <div class="comment">
+            <span class="avatar" style="background:#4f46c9;">DW</span>
+            <div class="cbody">
+                <div class="crow"><span class="cn">Donna W.</span><span class="ct">1 day ago</span></div>
+                <div class="cx">Reading this in bed at 2:14 a.m. with my husband sawing logs next to me. I&rsquo;ve been &ldquo;just for tonighting&rdquo; the spare room for almost two years now. Diane, this is my exact story. I&rsquo;m ordering one first thing in the morning. Thank you for writing it.</div>
+                <span class="clike"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.5-9.5-9C1 9 2.5 5.5 6 5.5c2 0 3.2 1.3 4 2.4.8-1.1 2-2.4 4-2.4 3.5 0 5 3.5 3.5 6.5C19 16.5 12 21 12 21z"/></svg> 38</span>
+            </div>
+        </div>
+
+        <div class="comment reply">
+            <span class="avatar" style="background:#7a4fb0;">DM</span>
+            <div class="cbody">
+                <div class="crow"><span class="cn">Diane Mercer</span><span class="badge">Author</span><span class="ct">1 day ago</span></div>
+                <div class="cx">Donna &mdash; you are not alone in this. The sheer number of women in your spot would astonish you. Give it a couple of weeks and come back to let us know how it goes. Sending you some rest.</div>
+                <span class="clike"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.5-9.5-9C1 9 2.5 5.5 6 5.5c2 0 3.2 1.3 4 2.4.8-1.1 2-2.4 4-2.4 3.5 0 5 3.5 3.5 6.5C19 16.5 12 21 12 21z"/></svg> 21</span>
+            </div>
+        </div>
+
+        <div class="comment">
+            <span class="avatar" style="background:#2f9461;">PA</span>
+            <div class="cbody">
+                <div class="crow"><span class="cn">Phil A.</span><span class="ct">2 days ago</span></div>
+                <div class="cx">I&rsquo;m the snorer in my house. My wife forwarded me this. I&rsquo;ll admit it &mdash; I felt called out reading about Gary. The CPAP I tried twice and couldn&rsquo;t stand, the dentist&rsquo;s mouthguard that gave me jaw pain, all of it. We ordered the pillow last week. Three nights in and my wife says it&rsquo;s noticeably softer at the loud peaks. I&rsquo;m sleeping better too. I&rsquo;ll report back at the 30-day mark.</div>
+                <span class="clike"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.5-9.5-9C1 9 2.5 5.5 6 5.5c2 0 3.2 1.3 4 2.4.8-1.1 2-2.4 4-2.4 3.5 0 5 3.5 3.5 6.5C19 16.5 12 21 12 21z"/></svg> 29</span>
+            </div>
+        </div>
+
+        <div class="comment">
+            <span class="avatar" style="background:#ef6147;">MG</span>
+            <div class="cbody">
+                <div class="crow"><span class="cn">Maureen G.</span><span class="ct">3 days ago</span></div>
+                <div class="cx">Question for anyone who&rsquo;s actually tried it &mdash; I&rsquo;m a strict side sleeper and I&rsquo;ve had three &ldquo;contour&rdquo; pillows that promised to work for side sleepers and were dreadful. Is this one really any different? My neck pain is no joke and I don&rsquo;t want to waste another sixty nights.</div>
+                <span class="clike"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.5-9.5-9C1 9 2.5 5.5 6 5.5c2 0 3.2 1.3 4 2.4.8-1.1 2-2.4 4-2.4 3.5 0 5 3.5 3.5 6.5C19 16.5 12 21 12 21z"/></svg> 12</span>
+            </div>
+        </div>
+
+        <div class="comment reply">
+            <span class="avatar" style="background:#4f46c9;">GT</span>
+            <div class="cbody">
+                <div class="crow"><span class="cn">Gail T.</span><span class="ct">2 days ago</span></div>
+                <div class="cx">Maureen, side sleeper here, fourteen years of neck pain. The contour is shaped so the side of your face rests in the lower scoop while the raised edge supports the side of your neck. Took me about four nights to fully adjust. Now I honestly can&rsquo;t go back. Not a miracle &mdash; just better.</div>
+                <span class="clike"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.5-9.5-9C1 9 2.5 5.5 6 5.5c2 0 3.2 1.3 4 2.4.8-1.1 2-2.4 4-2.4 3.5 0 5 3.5 3.5 6.5C19 16.5 12 21 12 21z"/></svg> 16</span>
+            </div>
+        </div>
+
+        <div class="comment">
+            <span class="avatar" style="background:#3a32a3;">AR</span>
+            <div class="cbody">
+                <div class="crow"><span class="cn">Dr. Alan Reese</span><span class="ct">4 days ago</span></div>
+                <div class="cx">Retired family physician here. I&rsquo;ll commend the author for being explicit that this is not a substitute for medical care in diagnosed apnea &mdash; that responsibility is exactly right. For mild, positional snoring, though, neck alignment through an ergonomic pillow is one of the most under-discussed contributing factors. For many patients it&rsquo;s worth trying before anything more invasive, in consultation with their own physician.</div>
+                <span class="clike"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.5-9.5-9C1 9 2.5 5.5 6 5.5c2 0 3.2 1.3 4 2.4.8-1.1 2-2.4 4-2.4 3.5 0 5 3.5 3.5 6.5C19 16.5 12 21 12 21z"/></svg> 44</span>
+            </div>
+        </div>
+
+        <div class="comment">
+            <span class="avatar" style="background:#7a4fb0;">BN</span>
+            <div class="cbody">
+                <div class="crow"><span class="cn">Barbara N.</span><span class="ct">5 days ago</span></div>
+                <div class="cx">The price felt steep at first &mdash; until I tallied up what we&rsquo;ve spent on strips, sprays and that ridiculous $420 mouthguard from the dentist. We&rsquo;ve been at this for six years. I bought it on the 70%-off promo, used the trial, and kept it. Worth every penny. I only wish we&rsquo;d tried it first instead of last.</div>
+                <span class="clike"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.5-9.5-9C1 9 2.5 5.5 6 5.5c2 0 3.2 1.3 4 2.4.8-1.1 2-2.4 4-2.4 3.5 0 5 3.5 3.5 6.5C19 16.5 12 21 12 21z"/></svg> 19</span>
+            </div>
+        </div>
+
+        <div class="comment">
+            <span class="avatar" style="background:#2f9461;">RE</span>
+            <div class="cbody">
+                <div class="crow"><span class="cn">Ruth E.</span><span class="ct">6 days ago</span></div>
+                <div class="cx">My husband uses CPAP every night, and I want to add this for anyone in our boat: the pillow has been a gentle complement to his machine, not a replacement. He says the mask is easier to wear now because the contour gives the headgear straps somewhere to rest without bunching up. Small thing, but for CPAP users it&rsquo;s a real one.</div>
+                <span class="clike"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.5-9.5-9C1 9 2.5 5.5 6 5.5c2 0 3.2 1.3 4 2.4.8-1.1 2-2.4 4-2.4 3.5 0 5 3.5 3.5 6.5C19 16.5 12 21 12 21z"/></svg> 24</span>
+            </div>
+        </div>
+
+        <div class="comment">
+            <span class="avatar" style="background:#ef6147;">SM</span>
+            <div class="cbody">
+                <div class="crow"><span class="cn">Sharon M.</span><span class="ct">1 week ago</span></div>
+                <div class="cx">I cried reading Diane&rsquo;s description of the four years apart. I&rsquo;ve been there for nine. Nine years. My husband doesn&rsquo;t even know I cry about it sometimes. We&rsquo;re going to try this. Whatever happens, thank you for the part about how the resentment grows &mdash; I thought I was a terrible person for feeling it. Now I see I&rsquo;m just a tired one.</div>
+                <span class="clike"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.5-9.5-9C1 9 2.5 5.5 6 5.5c2 0 3.2 1.3 4 2.4.8-1.1 2-2.4 4-2.4 3.5 0 5 3.5 3.5 6.5C19 16.5 12 21 12 21z"/></svg> 51</span>
+            </div>
+        </div>
+
+        <div class="comment reply">
+            <span class="avatar" style="background:#7a4fb0;">DM</span>
+            <div class="cbody">
+                <div class="crow"><span class="cn">Diane Mercer</span><span class="badge">Author</span><span class="ct">1 week ago</span></div>
+                <div class="cx">Sharon, you are not a terrible person. Sleep deprivation is its own kind of grief. We&rsquo;re thinking of you. Please come back and tell us how it goes.</div>
+                <span class="clike"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.5-9.5-9C1 9 2.5 5.5 6 5.5c2 0 3.2 1.3 4 2.4.8-1.1 2-2.4 4-2.4 3.5 0 5 3.5 3.5 6.5C19 16.5 12 21 12 21z"/></svg> 33</span>
+            </div>
+        </div>
+
+        <div class="comment">
+            <span class="avatar" style="background:#4f46c9;">NL</span>
+            <div class="cbody">
+                <div class="crow"><span class="cn">Nancy L.</span><span class="ct">1 week ago</span></div>
+                <div class="cx">For anyone on the fence: the 60-night trial is the real deal. We tried it, my husband didn&rsquo;t care for the firmness (he likes a soft pillow), and we sent it back. The refund landed in eight days. No hassle, no return shipping on our end. So even if it isn&rsquo;t for you, you&rsquo;re not stuck with it &mdash; which is exactly why I felt fine telling my sister to give it a shot.</div>
+                <span class="clike"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.5-9.5-9C1 9 2.5 5.5 6 5.5c2 0 3.2 1.3 4 2.4.8-1.1 2-2.4 4-2.4 3.5 0 5 3.5 3.5 6.5C19 16.5 12 21 12 21z"/></svg> 18</span>
+            </div>
+        </div>
+    </section>
+
+</article>
+</div><!-- /.shell -->
+
+<footer class="foot">
+    <p class="disc"><strong>Disclosure.</strong> This article is an advertorial. The personal narrative is illustrative; individual experiences with the product will vary. The NeckNest Contour is a comfort and posture-support pillow. It is not a medical device and is not intended to diagnose, treat, cure, or prevent any disease, including obstructive sleep apnea or any other diagnosed sleep disorder. Statements in this article have not been evaluated by the Food and Drug Administration. Always consult your healthcare provider before changing your sleep routine, especially if you have been diagnosed with a sleep disorder, are pregnant, or have any chronic medical condition. Testimonials reflect individual experiences and do not guarantee similar results.</p>
+    <p class="links">
+        <a href="privacy-policy.html">Privacy</a>
+        <a href="term-of-use.html">Terms</a>
+        <a href="disclaimer.html">Disclaimer</a>
+    </p>
+    <p class="cr">&copy; <span id="year"></span> Nightingale &middot; All rights reserved.</p>
+</footer>
+
+<!-- Sticky dock -->
+<div class="dock" id="dock">
+    <span class="dx">Reader resource &mdash; the pillow Diane describes: <b>NeckNest Contour</b></span>
+    <a href="https://get-derila-ergo.com/derila-ergo/product?prodpv=9&amp;hv=0&amp;_=10373&amp;vndr=evf&amp;evf=1" class="btn">Visit NeckNest <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</div>
+
+<script>
+(function() {
+    // ----- Dynamic copyright year -----
+    function setYear() {
+        var el = document.getElementById('year');
+        if (el) el.textContent = new Date().getFullYear();
+    }
+
+    // ----- Dynamic dates -----
+    function setDates() {
+        var now = new Date();
+        var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+        var shortM = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+        var d = now.getDate(), y = now.getFullYear(), m = now.getMonth();
+
+        var longD  = months[m] + ' ' + d + ', ' + y;
+        var shortD = shortM[m] + ' ' + d + ', ' + y;
+        var fullD  = months[m] + ' ' + d + ', ' + y;
+
+        function fill(cls, val) {
+            var els = document.querySelectorAll(cls);
+            for (var i = 0; i < els.length; i++) els[i].textContent = val;
+        }
+        fill('.js-date-long', longD);
+        fill('.js-date-short', shortD);
+        fill('.js-date-full', fullD);
+    }
+
+    // ----- Reading progress bar + sticky dock -----
+    function bindScroll() {
+        var bar = document.getElementById('readingBar');
+        var dock = document.getElementById('dock');
+        var trigger = document.getElementById('trigger-section');
+
+        function onScroll() {
+            var h = document.documentElement;
+            var scrolled = h.scrollTop || document.body.scrollTop;
+            var height = (h.scrollHeight - h.clientHeight) || 1;
+            if (bar) bar.style.width = ((scrolled / height) * 100) + '%';
+
+            if (dock && trigger) {
+                var rect = trigger.getBoundingClientRect();
+                if (rect.bottom < 0) dock.classList.add('on');
+                else dock.classList.remove('on');
+            }
+        }
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+    }
+
+    function init() {
+        setYear();
+        setDates();
+        bindScroll();
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+    setTimeout(init, 100);
+})();
+</script>
+
+</body>
+</html>
